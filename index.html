@@ -2,10 +2,302 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Git</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Pereezd</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+	
 </head>
 <body>
-	<p>Hello</p>
-	<p>fewfewef</p>
+
+
+	<header class="header">
+			<div class="header__top">
+				<div class="header__top__wrap">
+					<div class="header__logo">
+		                <div class="logo">
+		                    <a href="#"><img class="logo-img" src="img/logo.png" title="logo" alt="Logo"></a>
+		                    <p class="logo-text">домашний<br>переезд</p>
+		                </div>
+		            </div>
+
+					<ul class="header__top__list">
+						<li>
+							<img src="img/phone.png" alt="">
+							<a href="#"><p>8 (950) 566-46-66</p></a>
+						</li>
+						<li>
+							<img src="img/mail.png" alt="">
+							<a href="#"><p>gruz11reg@yandex.ru</p></a>
+						</li>
+					</ul>
+					<div class="header__top__button">
+						<button id="feedback" onclick="showModalWin()">Обратная связь</button>
+					</div>
+				</div>
+			</div>
+			<div class="header__bot">
+				<div class="header__bot__wrap">
+					<ul class="header__bot__list">
+						<li><a href="#" 
+						class="nav__company">
+							О компании<img src="img/drop-menu-icon.png" alt="">
+						</a></li>
+						<li><a href="#" 
+						class="nav__services">
+							Услуги<img src="img/drop-menu-icon.png" alt="">
+						</a></li>
+						<li><a href="#">Калькулятор</a></li>
+						<li><a href="price.html">Прайс</a></li>
+						<li><a href="#" class="nav__last">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+	</header>
+	<div class="hero__image">
+		<div class="hero__image__content">
+			<p>
+				«За словом дело,<br>За делом результат»
+			</p>
+		</div>
+	</div>
+	<div class="services">
+		<div class="services__wrap">
+
+			<div class="services__our__services">
+				<div class="services">
+					<p><a href="#">Наши&#8195;</a> услуги</p>
+				</div>
+				<div class="services__freight">
+						<p>Грузоперевозки по России</p>
+						<img src="img/section-title.png" alt="">	
+				</div>
+			</div>
+
+			<div class="services__list">
+					<div class="services__move">
+						<img src="img/flat.png" alt="">
+						<p><a href="#">Квартирный переезд</a></p>
+					</div>
+					<div class="services__move">
+						<img src="img/office.png" alt="">
+						<p><a href="#">Офисный переезд</a></p>
+					</div>
+					<div class="services__move">
+						<img src="img/dacha.png" alt="" height="205px">
+						<p><a href="#">Дачный переезд</a></p>
+					</div>
+			</div>	
+			<div class="services__text">
+						<p>Современный домашний переезд – это когда Вы, не выходя из дома, с помощью телефона и компьютера можете организовать свой переезд. Компания Домашний переезд – современная компания. Для организации переезда используем современные технологии для поиска заказчиков и исполнителей. У нас большая база перевозчиков, более 90 000. Такое количество позволяет удовлетворить любые потребности заказчиков. Всё что Вам нужно – это набрать Наш номер и оставить заявку, мы подберем транспорт и подадим его в оговоренное время и место.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="advantages">
+		<div class="advantages__wrapper">
+			<div class="advantages__our">
+					<p><a href="#">Наши</a> преимущества</p>
+			</div>
+
+			<ul class="advantages__list">
+				<li class="advantages__list__ouradv">
+					<img src="img/clock.png" alt="">
+					<h4>Соблюдаем сроки</h4>
+					<p>Своевременно подаём
+					авто и доставляем грузы</p>
+				</li>
+				<li class="advantages__list__ouradv">
+					<img src="img/location.png" alt="">
+					<h4>Ездим по всей РФ</h4>
+					<p>Всегда есть свободный 
+					транспорт</p>
+				</li>
+				<li class="advantages__list__ouradv">
+					<img src="img/shield.png" alt="">
+					<h4>Безопасность</h4>
+					<p>Предлагаем только проверенных
+					 водителей, с хорошей 
+					репутацией</p>
+				</li>
+				<li class="advantages__list__ouradv">
+					<img src="img/doc.png" alt="">
+					<h4>Бухгалтерская отчётность</h4>
+					<p>Работаем за наличный и
+					безналичный расчёт, НДС.
+					Предоставим весь пакет
+					документов</p>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+	<div class="how__to">
+		<div class="how__to__wrap">
+			<div class="wrapper__shiping">
+					<p>
+						<a href="#">Как</a> организуем перевозку
+					</p>
+			</div>
+			<ul class="shiping__list">
+				<li class="shiping__list__organization">
+					<img src="img/request.png" alt="">
+					<h4>Оставляете заявку</h4>
+					<p>Даете параметры груза</p>
+				</li>
+
+				<li class="shiping__list__arrow">
+					<img src="img/arrow.png" alt="">
+				</li>
+				
+				<li class="shiping__list__organization">
+					<img src="img/dogovor.png" alt="">
+					<h4>Заключаем договор</h4>
+					<p>Согласовываем цену</p>
+				</li>
+				<li class="shiping__list__arrow">
+					<img src="img/arrow.png" alt="">
+				</li>
+				<li class="shiping__list__organization">
+					<img src="img/truck.png" alt="" style="padding-top: 17px">
+					<h4>Осуществляем перевозку</h4>
+					<p>Подаём транспорт в назначенное
+					время, загружаемся, делаете 
+					предоплату, доставляем груз</p>
+				</li>
+				<li class="shiping__list__arrow">
+					<img src="img/arrow.png" alt="">
+				</li>
+				<li class="shiping__list__organization">
+					<img src="img/box.png" alt="">
+					<h4>Прием и разгрузка</h4>
+					<p>Окончательный расчёт</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="trucks">
+		<div class="trucks__wrap">
+			<div class="trucks__autopark">
+				<p>
+						<a href="#">Наш</a> автопарк
+				</p>
+			</div>
+			<div class="trucks__autopark__list">
+				<div class="autopark__list">
+					<div class="autopark__list__content">			
+						1.5 тонны <span class="col-1">Газель 3м, 1,5тн,  12м3</span>
+					</div>
+					<img src="img/1.png" alt="">
+				</div>
+				<div class="autopark__list">
+					<div class="autopark__list__content">
+						3 тонны	<span class="col-2">Грузовик, 3,5м, 3,5 тн, 15м3
+						</span>
+					</div>
+					<img src="img/2.png" alt="">
+				</div>
+				<div class="autopark__list">
+					<div class="autopark__list__content">
+							10 тонн	<span class="col-3">Грузовик, 6м, 10 тн, 34 м3
+							</span>
+					</div>
+					<img src="img/3.png" alt="">
+				</div>
+				<div class="autopark__list">
+					<div class="autopark__list__content">
+							20 тонн <span class="col-4">Евро тент, 13,6м, 20 тн, 86 м3</span>
+					</div>
+					<img src="img/4.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer__wrap">
+			<div class="footer__top">
+				<div class="footer-office">
+					Офис: 167000, г. Сыктывкар, ул. Огородная, д. 6, оф. 2<br>
+					График работы: с 8:00 до 20:00
+				</div>
+				<div class="footer-telephone">
+					Тел: 8 (950) 566-46-66, 8 (963) 557-35-77<br>
+					E-mail: gruz11reg@yandex.ru
+				</div>
+				<div class="footer-button">
+					<button id="feedback" onclick="showModalWin()">Обратная связь</button>
+				</div>
+			</div>
+			<div class="footer__bot">
+				<div class="copewrite">
+					&copy;2017 Домашний переезд
+				</div>
+				<div class="footer-development">
+					Разработка: <span>«Информационные технологии»
+					</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="feedback">
+		<div class="feedback__top">
+			<p class="feedback__top-text">Форма обратной связи</p>
+			<div class="feedback__top-close">
+				<p>Закрыть</p>
+				<img src="img/close.png">
+			</div>
+		</div>
+		<div class="feedback__form">
+			<form action="post">
+				<label for="form-name">Ваше имя</label>
+				<input type="text" name="form-name">
+				<label for="form-phone">Телефон</label>
+				<input type="text" name="form-phone">
+				<div class="form-checkbox">
+					<input type="checkbox" id="checkbox">
+					<label for="checkbox">Согласен на обработку персональных данных</label>
+				</div>
+				<input type="submit" value="Отправить" class="submit">
+			</form>
+		</div>
+	</div>
+
+	
+
+	
+	<div class="request">
+		<div class="request__top">
+			<p class="request__top-text">Форма обратной связи</p>
+			<div class="request__top-close">
+				<p>Закрыть</p>
+				<img src="img/close.png">
+			</div>
+		</div>
+		<div class="request__form">
+			<form action="post">
+				<label for="form-name">Ваше имя</label>
+				<input type="text" name="form-name">
+				<label for="form-phone">Телефон</label>
+				<input type="text" name="form-phone">
+				<label for="form-info">Краткая информация</label>
+				<input type="text" name="form-info">
+				<div class="form-checkbox">
+					<input type="checkbox" id="checkbox">
+					<label for="checkbox">Согласен на обработку персональных данных</label>
+				</div>
+				<input type="submit" value="Отправить" class="submit">
+			</form>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
